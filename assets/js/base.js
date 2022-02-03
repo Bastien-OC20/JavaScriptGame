@@ -1,6 +1,8 @@
 // base/js
 /*                     Board                 */
 const theBoard = new Board(24, 24)
+/*                     Hero                 */
+const theHero = new Hero({ x: 4, y: 11 }, 'fuffy')
 /*              Bloc 1                     */
 const obstacle0012 = new Obstacle({ x: 8, y: 6 }, '0012')
 const obstacle0011 = new Obstacle({ x: 9, y: 3 }, '0011')
@@ -128,3 +130,8 @@ const obstacle092 = new Obstacle({ x: 6, y: 18 }, '92')
 const obstacle093 = new Obstacle({ x: 6, y: 19 }, '93')
 const obstacle094 = new Obstacle({ x: 6, y: 20 }, '94')
 const obstacle0941 = new Obstacle({ x: 7, y: 20 }, '941')
+/*                   dalles                 */
+const Item001 = new Items({ x: 9, y: 8 }, '01')
+const Item002 = new Items({ x: 20, y: 5 }, '02')
+const Item003 = new Items({ x: 12, y: 17 }, '03')
+const Item004 = new Items({ x: 6, y: 21 }, '04')
